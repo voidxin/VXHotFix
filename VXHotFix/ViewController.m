@@ -16,7 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self testFunction];
+}
+
+- (void)testFunction{
+   
+    NSLog(@"i am voidxin, from native");
+    self.contentLabel.text = @"i am voidxin, from native";
 }
 
 
